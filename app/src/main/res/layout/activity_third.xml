@@ -4,9 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="@dimen/generalPadding"
     android:orientation="vertical"
-    tools:context=".SecondActivity">
+    android:padding="@dimen/generalPadding"
+    android:gravity="center"
+    tools:context=".ThirdActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -21,10 +22,10 @@
             android:textSize="@dimen/textSize"/>
 
         <TextView
-            android:id="@+id/name_message"
+            android:id="@+id/name_message2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text=""
+            android:text="hola"
             android:textSize="@dimen/textSize"/>
 
     </LinearLayout>
@@ -42,10 +43,10 @@
             android:textSize="@dimen/textSize"/>
 
         <TextView
-            android:id="@+id/lastname_message"
+            android:id="@+id/lastname_message2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text=""
+            android:text="mundo"
             android:textSize="@dimen/textSize"/>
 
     </LinearLayout>
@@ -63,10 +64,10 @@
             android:textSize="@dimen/textSize"/>
 
         <TextView
-            android:id="@+id/email_message"
+            android:id="@+id/email_message2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text=""
+            android:text="que"
             android:textSize="@dimen/textSize"/>
 
     </LinearLayout>
@@ -84,20 +85,12 @@
             android:textSize="@dimen/textSize"/>
 
         <TextView
-            android:id="@+id/genre_message"
+            android:id="@+id/genre_message2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text=""
+            android:text="tal"
             android:textSize="@dimen/textSize"/>
 
     </LinearLayout>
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/marginTop"
-        android:layout_gravity="center"
-        android:id="@+id/btn_share"
-        android:text="SHARE"/>
 
 </LinearLayout>
